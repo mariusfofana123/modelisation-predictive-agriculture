@@ -15,7 +15,19 @@ Ce projet de Machine Learning vise à analyser les propriétés chimiques et phy
 * **Machine Learning :** Scikit-Learn
 
 ## 🚀 Installation & Exécution
+
 1. Cloner le projet :
-   ```bash
-   git clone [https://github.com/mariusfofana123/modelisation-agriculture-predictive.git](https://github.com/mariusfofana123/modelisation-agriculture-predictive.git)
-   cd modelisation-agriculture-predictive
+```bash
+git clone https://github.com/mariusfofana123/modelisation-agriculture-predictive.git
+cd modelisation-agriculture-predictive
+```
+
+2. Installer les dépendances :
+```bash
+pip install -r requirements.txt
+```
+
+3. Lancer Jupyter Notebook :
+```bash
+jupyter notebook cahiers/analyse.ipynb
+```
